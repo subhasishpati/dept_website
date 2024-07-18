@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    object-fit: cover;
+    object-position: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    scrollbar-color: red;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+
+body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .upperhero {
+    height: 10%;
+} */
+
+.nottext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    height: 4vh;
+    /* background-color: deeppink; */
+    width: 84%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+nav {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 7vh;
+}
+
+nav a {
+    font-family: 'myriad pro', sans-serif;
+    font-size: 1.2em;
+
+    color: white;
+}
+.almreg{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 1005;
+    height: 10vh;
+    background-color: rgb(138, 43, 226);} 
+
+
+/* .button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color:blueviolet;
+    border-radius: 0px;
+    border-width: 0;
+    color: whitesmoke;
+    cursor: pointer;
+    display: inline-block;
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+} */
+
+.zero {
+    /* background-color: chocolate; */
+    width: 100%;
+    height: 54vh;
+    padding-top: 10.3vh;
+
+}
+
+.footer {
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 35vh;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.footfirst {
+    height: 92%;
+    padding: 40px;
+}
+
+.footfirst p {
+    padding-top: 15px;
+}
+
+.footfirst img {
+    height: 35%;
+}

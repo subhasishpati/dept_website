@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    object-fit: cover;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    scrollbar-color: red;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+
+body {
+    background-color: whitesmoke;
+}
+
+.hero {
+    /* background-color: chartreuse; */
+    background-image: url(images/1699623281545.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 56vh;
+}
+
+.upperhero {
+    height: 10%;
+}
+
+.innerhero {
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+}
+
+.antispace {
+    /* background-color: brown; */
+    height: 100%;
+    width: 8%;
+}
+
+.nottext {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 100%;
+    /* background-color: deeppink; */
+    width: 84%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.nottext p {
+    font-size: 0.7em;
+    font-family: 'myriad pro', sans-serif;
+}
+
+.nottext img {
+    height: 60%;
+}
+
+.loginlogo {
+    /* background-color: brown; */
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.loginlogo img {
+    cursor: pointer;
+    height: 4%;
+    position: absolute;
+}
+
+.line {
+    margin: 0 auto;
+    height: 1%;
+}
+
+.dname {
+    color: white;
+    height: 78%;
+    display: flex;
+}
+
+.collegelogo {
+    /* background-color: red; */
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vline {
+    /* background-color: blue; */
+    height: 100%;
+    width: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vline img {
+    height: 60%;
+}
+
+.dtext {
+    font-size: 2.5em;
+    /* background-color: green; */
+    height: 100%;
+    width: 69%;
+    display: flex;
+    align-items: center;
+}
+
+.collegelogo img {
+    width: auto;
+    height: 50%;
+    margin-left: 4vw;
+}
+
+nav {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 27%);
+    width: 100%;
+    height: 12%;
+}
+
+nav a {
+    font-family: 'myriad pro', sans-serif;
+    font-size: 1.2em;
+
+    color: white;
+}
+
+.zero {
+    /* background-color: chocolate; */
+    width: 100%;
+    height: 44vh;
+
+}
+
+.dheading {
+    width: 100%;
+    /* background-color: pink; */
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4vw;
+}
+
+.dheading p {
+    font-family: 'noto sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.lowerzero {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    /* background-color: aquamarine; */
+}
+
+.dimg {
+    /* background-color:slateblue ; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dimg img {
+    height: 90%;
+    width: 80%;
+}
+
+.dabout {
+    /* background-color: lawngreen; */
+    width: 60%;
+    height: 100%;
+}
+
+.dabout p {
+    font-size: 1em;
+    padding-right: 7vw;
+}
+
+.scooter {
+    /* background-color: lime; */
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.twossion {
+    width: 50%;
+    height: 100%;
+    /* background-color: mediumslateblue; */
+}
+
+.mission {
+    height: 50%;
+    width: 100%;
+    /* background-color: tomato; */
+    padding: 40px;
+
+}
+
+.missheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 18%;
+    /* background-color: cornflowerblue; */
+}
+
+.missheading p {
+    font-family: 'noto sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.misstext {
+    /* font-style: italic; */
+    height: auto;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.misstext p {
+    padding: 1.2vh;
+    padding-left: 0%;
+}
+
+.vission {
+    height: 50%;
+    width: 100%;
+    /* background-color: paleturquoise; */
+    padding: 40px;
+    padding-top: 0%;
+}
+
+.vissheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 18%;
+    /* background-color: gold; */
+}
+
+.vissheading p {
+    font-family: 'noto sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.visstext {
+    /* font-style: italic; */
+    height: 88%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.visstext p {
+    padding: 1.2vh;
+    padding-left: 0%;
+}
+
+.nboard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* background-color: lightslategrey; */
+    float: right;
+    /* padding-right: 40px; */
+}
+
+.noteheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    /* background-color: blueviolet; */
+}
+
+.noteheading p {
+    font-family: 'noto sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.nboard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* background-color: lightslategrey; */
+    float: right;
+    /* padding-right: 40px; */
+}
+
+.noteheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    /* background-color: blueviolet; */
+}
+
+.noteheading p {
+    font-family: 'noto sans', sans-serif;
+    font-size: 1.5em;
+}
+
+
+.box {
+    height: 46vh;
+    width: 45vw;
+    background-color: transparent;
+    border: 5px solid black;
+    /* padding: 20px; Padding inside the box */
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+/* .box marquee {
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 635px;
+    height: 435px;
+    border-radius: 3px;
+    color: #650A87;
+    background-color: #E4ECF1;
+} */
+
+.mar ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    height: 300px;
+    width: 500px;
+    
+}
+
+.mar a{
+    font-size: x-large;
+}
+
+.box,
+.mar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* .nbcal {
+    margin-right: 200px;
+} */
+
+.hodmsg {
+    display: flex;
+    flex-direction: row;
+    /* background-color: skyblue; */
+    width: 100%;
+    height: 40vh;
+}
+
+.hodimg {
+    display: flex;
+    justify-content: center;
+    /* background-color: lemonchiffon; */
+    height: 100%;
+    width: 35%;
+}
+
+.hodimg img {
+    height: 80%;
+}
+
+.msg {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rosybrown; */
+    height: 100%;
+    width: 65%;
+}
+
+.msghead {
+    /* background-color: palegreen; */
+    height: 20%;
+    width: 100%;
+}
+
+.msghead p {
+    font-family: 'noto sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.msgtext {
+    /* background-color: aquamarine; */
+    height: 80%;
+    width: 100%;
+    padding: 40px;
+    padding-top: 20px;
+    padding-left: 0%;
+}
+
+.teacher {
+    /* background-color: yellow; */
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.thead {
+    height: 15%;
+    width: 100%;
+    /* background-color: magenta; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4vw;
+}
+
+.thead p {
+    font-family: 'noto sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.container {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 40vh;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.footfirst {
+    height: 92%;
+    padding: 40px;
+}
+
+.footfirst p {
+    padding-top: 15px;
+}
+
+.footfirst img {
+    height: 35%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.modal-content {
+    position: absolute;
+    height: 15%;
+    width: 10%;
+    background-color: whitesmoke;
+    top: 7%;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    justify-content: center;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.login_btn {
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 12px 10px;
+}
+
+.close {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
